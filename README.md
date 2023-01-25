@@ -4,7 +4,8 @@ URL: https://jingwu6305.github.io/weather-dashboard/
 
 ## Description
 
-```This is an application with the OpenWeather API to help the user get the weather of their city of choice.
+```
+This is an application with the OpenWeather API to help the user get the weather of their city of choice.
 ```
 
 ## User Story
