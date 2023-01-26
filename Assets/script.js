@@ -63,6 +63,8 @@ function getWeather(){
             var date = new Date();
             dateandTime.text("("+ (date.getMonth()+1) + "/" + date.getDate() + "/" + date.getFullYear() + ")");
 
+            data.main.temp = (data.main.temp - 273.15)*9/5+32;
+            data.main.temp = data.main.temp.toFixed(2);
 
             temp.text("Temperature: "+ data.main.temp + " F");
             humidity.text("Humidity: " + data.main.humidity + " %");
