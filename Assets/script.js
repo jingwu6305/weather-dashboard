@@ -49,7 +49,7 @@ function getWeather(){
     $(".city").append(humidity);    
     $(".city").append(dateandTime);
 
-    var queryUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=d152bb8cfb3cabf7295ff3ec47a0924c";
+    var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=d152bb8cfb3cabf7295ff3ec47a0924c";
     
     fetch(queryUrl)
 
